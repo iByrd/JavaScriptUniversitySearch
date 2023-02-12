@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Byrd's Final - University Lookup</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css"
+        >
+    </head>
+
+    <body>
+        <h1>Byrd's Final</h1>
+        <h2>University Search</h2>
+        <label for="search">Enter university name:</label>
+        <input type="search" id="search" />
+        <button id="submit">Submit</button><br /><br />
+
+        <table id="table" class="display" width="100%">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>School Name</th>
+                    <th>City</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>School Name</th>
+                    <th>City</th>
+                    <th>State</th>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+
+    <!--jquery, data-tables, and my javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+        type="text/javascript"
+        charset="utf8"
+        src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"
+    ></script>
+    <script src="js/main.js"></script>
+</html>
